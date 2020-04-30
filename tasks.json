@@ -18,10 +18,12 @@
             "problemMatcher": { 
                 "base": "$gcc", 
                 "fileLocation": [ "absolute" ],
-                "pattern": { 
-                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(.*)$", 
-                             "file": 1, "line": 2, "column": 3, "message": 4 
-                } 
+                "pattern": {
+                    "regexp": "^(.*)\\((\\d+)\\):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "message": 3
+                }
             },
             "group": {
                 "kind": "build",
@@ -45,10 +47,12 @@
             "problemMatcher": { 
                 "base": "$gcc", 
                 "fileLocation": [ "absolute" ],
-                "pattern": { 
-                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(.*)$", 
-                             "file": 1, "line": 2, "column": 3, "message": 4 
-                } 
+                "pattern": {
+                    "regexp": "^(.*)\\((\\d+)\\):\\s+(.*)",
+                    "file": 1,
+                    "line": 2,
+                    "message": 3
+                }
             },
             "group": {
                 "kind": "build",
